@@ -1,0 +1,63 @@
+.category {
+    padding: 0 !important;
+    border: none;
+    border: 2px solid #FFFFFF !important;
+    width: 272px;
+    height: 199px;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    position: relative;
+}
+
+.owl-carousel .nav-btn {
+    height: 18px;
+    position: absolute;
+    width: 18px;
+    cursor: pointer;
+    top: 40% !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+    background: url('./assets/images/left-chevron.png') no-repeat;
+    left: -33px;
+}
+
+.owl-carousel .next-slide {
+    background: url("./assets/images/right-arrow.png") no-repeat;
+    right: -33px;
+}
+
+.category_name {
+    background: rgba(254, 249, 249, 0.95);
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.57);
+    padding: 5px;
+    position: absolute;
+    width: 240px;
+    bottom: 8px;
+}
+
+.category_name p:first-child {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.category_name p:last-child {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    color: #14B1F0;
+}

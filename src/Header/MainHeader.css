@@ -1,0 +1,134 @@
+.main_header {
+    background: #03484D;
+    padding: 10px 118.5px 10px 61px;
+}
+
+.header_logo {
+    width: 132.5px;
+    height: 48px;
+    margin-right: 48px;
+}
+
+.category_dropdown {
+    font-family: 'Century Gothic' !important;
+    border-radius: 6px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    background: #FFFFFF !important;
+    color: #ABA3A3 !important;
+    padding: 9.5px 21.5px 13.5px 17.5px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    height: 38px;
+    border-color: transparent !important;
+}
+
+.dropdown-toggle::after {
+    margin-left: 24px !important;
+}
+
+.search_box {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border: 1px solid #AEAEAE;
+    padding: 0 20px 0 10px !important;
+    background-clip: inherit !important;
+    height: 38px;
+}
+
+.search_box:focus {
+    color: #212529;
+    border: 1px solid #AEAEAE;
+    background-color: #fff;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#basic-addon2 {
+    background: #B6B6B6;
+    border-radius: 0px 6px 6px 0px;
+    width: 43px;
+    height: 38px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.headphone, .headphone:hover {
+    color: #FFFFFF;
+}
+
+.space {
+    margin: 5.11px 0;
+}
+
+.call_us {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.sign_in {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.cart_text {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+
+.search_section {
+    display: flex;
+    align-items: center;
+}
+.cart_section{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+    .main_header {
+        padding: 10px 20px 10px 20px !important;
+    }
+
+    .sub_header {
+        padding: 13.5px 20px 13.5px 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main_header {
+        padding: 10px 20px 10px 20px !important;
+    }
+
+    .sub_header {
+        padding: 13.5px 20px 13.5px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .search_section {
+        display: none !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .cart_section{
+        display: none;
+    }
+}

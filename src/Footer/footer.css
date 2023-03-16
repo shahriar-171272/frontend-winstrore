@@ -1,0 +1,91 @@
+.footer_title {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #00CAD7;
+    margin-bottom: 21px !important;
+}
+
+.list_item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list_item li a {
+    font-family: 'Century Gothic';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF !important;
+    cursor: pointer;
+}
+
+.footer_text {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 21px 0;
+}
+
+.got_question {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    margin: 14px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #00CAD7;
+}
+
+.mobile {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.mobile a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.mobile a:hover{
+    color: #FFFFFF;
+}
+
+.contact {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    color: #00CAD7;
+    margin: 14px 0;
+}
+
+.email a {
+    text-decoration: none;
+    color: #FFFFFF !important;
+}
+
+.social_icons {
+    color: #FFFFFF;
+}
+
+.social_icons .fa {
+    font-size: 18px;
+    /*cursor: pointer;*/
+}

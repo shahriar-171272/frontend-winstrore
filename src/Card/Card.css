@@ -1,0 +1,72 @@
+.card {
+    font-family: 'Century Gothic';
+    width: 186px;
+    height: 287px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 14px;
+    margin-bottom: 1rem;
+}
+
+.card .title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 11px !important;
+}
+
+.card .product_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #034E53 !important;
+    margin-bottom: 11px !important;
+}
+
+.card .price_section {
+    display: flex;
+    align-items: center;
+    margin: 11px 0;
+}
+
+.card .price_section .discount_price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #697475;
+    margin-right: 10px;
+}
+
+.card .card_image {
+    width: 158px;
+    height: 129px;
+    object-fit: contain;
+}
+
+.card .price_section .price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #0AAEB9;
+}
+
+.card .add_to_cart {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF !important;
+    background: #15ADB7;
+    border-radius: 0 !important;
+}
+
+.card .add_to_cart:hover {
+    color: #FFFFFF !important;
+    background: #15ADB7 !important;
+}
